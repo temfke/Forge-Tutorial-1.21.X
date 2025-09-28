@@ -9,6 +9,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.temf.tutorialmod.TutorialMod;
 import net.temf.tutorialmod.block.ModBlocks;
+import net.temf.tutorialmod.block.custom.MagicBlock;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -37,6 +38,8 @@ public class ModCreativeModeTabs {
                                 output.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
                                 output.accept(ModBlocks.ALEXANDRITE_ORE.get());
                                 output.accept(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE.get());
+
+                                output.accept(ModBlocks.MAGIC_BLOCK.get());
 
                             }
                             ).build());
